@@ -13,6 +13,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@nestjs/mapped-types": "*",
     "@nestjs/typeorm": "^11.0.0",
     "pg": "^8.13.1",
     "typeorm": "^0.3.20"
