@@ -15,7 +15,9 @@
   "dependencies": {
     "@nestjs/mapped-types": "*",
     "@nestjs/typeorm": "^11.0.0",
+    "@reduxjs/toolkit": "^2.5.0",
     "pg": "^8.13.1",
+    "react-redux": "^9.2.0",
     "typeorm": "^0.3.20"
   }
 }
