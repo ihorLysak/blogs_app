@@ -30,7 +30,10 @@ export class PostService {
   }
 
   async findOne(id: string) {
-    return await this.postRepository.findOneBy({ id });
+    return await this.postRepository.findOne({
+      where: { id },
+      relations: ['author', 'comments'],
+    });
   }
 
   async update(id: string, updatePostDto: UpdatePostDto) {
